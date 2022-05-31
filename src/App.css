@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #e0dfdf;
+  box-shadow: 0px 0px 20px 2px black;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.home {
+  margin: 0 50px;
+}
+
+.home h3 {
+  font-size: 27px;
+  text-align: center;
+  margin: 30px 0;
+  font-style: italic;
+}
+
+.post-container-home {
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px auto;
+  box-shadow: 0px 0px 12px 0px rgb(94, 93, 93);
+  width: 250px;
+  
+}
+
+.post-container-home a {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-container-home h4 {
+  font-size: 22px;
+}
+
+.post-container {
+  margin: 50px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.post h3 {
+  font-size: 30px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post button, .comment-container button {
+  background-color: transparent;
+  border: 0;
+  text-decoration: underline;
+}
+
+.time p, .time {
+  font-size: 12px;
+  text-align: right;
+}
+
+.comments-container h3 {
+  font-size: 20px;
+}
+
+.comment-container {
+  border: 1px solid rgb(172, 172, 172);
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.comment-text {
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+
+.comment-details {
+  text-align: right;
+  font-size: 14px;
+}
+
+.comment-form-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.comment-form-container label {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.comment-form-container button {
+  background-color: black;
+  color: white;
+  border: 0;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.text {
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.add-comment {
+  margin-top: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-bar h1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .post-container {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .post-container {
+    padding: 0 300px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .post-container {
+    padding: 0 450px;
+  }
+}
+
