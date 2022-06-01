@@ -7,8 +7,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/blog-api" element={<Home />} />
-        <Route path="/blog-api/post/:id" element={<Post />} />
+        <Route path="/blog-api-user" element={<Home />} />
+        <Route path="/blog-api-user/post/:id" element={<Post />} />
       </Routes>
     </BrowserRouter>
   );

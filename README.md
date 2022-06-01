@@ -36,4 +36,4 @@ It takes a few seconds for the first time to fetch the data because the server i
 
 ## Link
 ---
-Check the [demo](https://lc-blog-api.herokuapp.com/) 
+Check the [demo](https://gl-cardillo.github.io/blog-api-user/) 

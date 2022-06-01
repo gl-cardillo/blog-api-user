@@ -14,6 +14,8 @@ export function Home() {
       });
   }, []);
 
+
+
   return (
     <div>
       <div className="nav-bar">
